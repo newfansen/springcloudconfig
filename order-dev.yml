@@ -18,5 +18,5 @@ eureka:
       defaultZone:  http://eurekaserver1:8000/eureka
   instance:
     instance-id: ${spring.application.name}:${server.port}
-env: 我爱你 是来自灵魂来自生命的力量 不管别人怎么想 把我带到你的身旁
+env: 我爱你 是来自灵魂来自生命的力量 在遥远的地方 你是否一样 听见我的呼喊 爱是一种信仰 把你 带回我的身旁
       
