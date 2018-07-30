@@ -6,8 +6,8 @@ spring:
     name: order
   rabbitmq:
     host: 192.168.10.76   
-    username: lee
-    password: 123456
+    username: fans
+    password: 5128600
     port: 5672  
 management:
   security:
@@ -18,4 +18,5 @@ eureka:
       defaultZone:  http://eurekaserver1:8000/eureka
   instance:
     instance-id: ${spring.application.name}:${server.port}
-env: dev1
+env: dev
+      
